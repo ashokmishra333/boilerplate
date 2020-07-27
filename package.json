@@ -1,11 +1,20 @@
 {
   "name": "boiler-plate",
   "version": "0.1.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashok Mishra",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokmishra333/boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ashokmishra333/boilerplate/issues"
+  },
+  "homepage": "https://github.com/ashokmishra333/boilerplate#readme",
+  "description": ""
 }
