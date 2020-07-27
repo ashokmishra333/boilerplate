@@ -6,7 +6,7 @@
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --config ./webpack.config.dev.js",
     "babel": "babel main.js --out-file ./main_es5.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Ashok Mishra",
   "license": "ISC",
@@ -33,6 +33,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^4.0.0",
     "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.1.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12",
