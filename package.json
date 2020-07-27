@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack --config ./webpack.config.dev.js",
+    "dev": "webpack --watch --config ./webpack.config.dev.js",
     "babel": "babel main.js --out-file ./main_es5.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
