@@ -16,5 +16,9 @@
     "url": "https://github.com/ashokmishra333/boilerplate/issues"
   },
   "homepage": "https://github.com/ashokmishra333/boilerplate#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
